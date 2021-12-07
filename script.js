@@ -13,7 +13,7 @@ document.querySelector('.check').addEventListener('click', function () {
   console.log(guess, typeof guess);
 
   // When there is no input
-  if (!guess) {
+  if (!guess || guess < 0) {
     displayMessage('⛔ No number');
   } else if (guess === secrateNumber) {
     displayMessage('🎉 Correct Number!');
