@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-@media (min-width: 800px) and (min-height: 600px){
+
 * {
   margin: 0;
   padding: 0;
@@ -127,31 +127,5 @@ input::placeholder{
   top: 2rem;
   right: 2rem;
 }
-}
 
-@media (min-width:100px) and (min-height:100px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-  body {
-    font-family: 'Press Start 2P', sans-serif;
-    color: #eee;
-    background-color: rgb(34, 34, 34);
-    /* background-color: #60b347; */
-  }
-  .btn {
-    border: none;
-    background-color: #eee;
-    color: #222;
-    font-size: 100%;
-    font-family: inherit;
-    padding:  30px;
-    cursor: pointer;s
-  }
-  .message {
-    margin-bottom: 8%;
-    height: 3rem;
-  }
-}
+
