@@ -102,7 +102,7 @@ h1 {
   font-size: 2rem;
   font-family: inherit;
   padding: 2rem 3rem;
-  cursor: pointer;s
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -118,14 +118,12 @@ h1 {
   margin-bottom: 2rem;
 }
 
-input::placeholder{
+input::placeholder {
   font-size: xx-large;
   text-align: center;
 }
-.reset{
-  position:absolute;
+.reset {
+  position: absolute;
   top: 2rem;
   right: 2rem;
 }
-
-
